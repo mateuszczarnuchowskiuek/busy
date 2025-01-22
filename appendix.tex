@@ -1,0 +1,205 @@
+\chapter*{Załączniki}
+\label{chap:zalaczniki}
+\addcontentsline{toc}{chapter}{Dodatek}
+
+
+
+\section*{Szablon pracy dyplomowej}
+
+Niniejszy dokument przewodnika dyplomanta został opracowany przy użyciu języka \LaTeX~oraz szablonu stworzonego dla przygotowania pracy dyplomowej na Uniwersytecie Ekonomicznym w Krakowie. Poniżej podany został krótki instruktaż opisujący czynności, jakie należy wykonać, aby wykorzystać szablon dla przygotowania własnej pracy dyplomowej.
+
+Czym jest \LaTeX? W skrócie, to oprogramowanie do zautomatyzowanego składu tekstu artykułów, książek, broszur, czy prezentacji. Warto, dla poszerzenia swojej wiedzy, zapoznać się z dostępnymi w Internecie licznymi materiałami wprowadzającymi w zagadnienia związane z użyciem narzędzia \LaTeX:
+
+\begin{itemize}
+	\item \href{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}{Learn LaTeX in 30 minutes}
+	\item \href{https://www.latex-tutorial.com/tutorials/}{A simple guide to LaTeX - Step by Step}
+	\item \href{http://www.ptep-online.com/ctan/lshort_polish.pdf}{Nie za krótkie wprowadzenie do systemu LATEX 2e}
+	\item \href{http://piotrkosoft.net/pub/mirrors/CTAN/info/symbols/comprehensive/symbols-a4.pdf}{The Comprehensive LATEX Symbol List}
+\end{itemize}
+
+Należy jednak dodać, iż dla przygotowania pracy dyplomowej przy użyciu opracowanego szablonu wymagana jest jedynie podstawowa wiedza dotycząca narzędzia \LaTeX. Zdecydowana większość czynności związanych z formatowaniem dokumentu jest realizowana automatycznie przy użyciu komend zawartych w szablonie.
+
+Do przygotowania pracy dyplomowej niezbędne jest zintegrowane środowisko pracy, które umożliwia tworzenie i skład dokumentów. Osobom mniej obeznanym z tymi zagadnieniami polecić można serwis \url{https://www.overleaf.com/}, który umożliwia edycję dokumentów przy użyciu jedynie przeglądarki internetowej. Inny sposób to instalacja bezpłatnego oprogramowania. Dla systemu operacyjnego Windows powszechnie wykorzystywanymi są narzędzia MiKTeX  oraz TeXstudio.
+
+
+
+%---------------------------------------------------------------------------
+
+\section*{Instrukcja użycia szablonu}
+
+W przypadku użycia usługi \href{https://www.overleaf.com/}{Overleaf}, w pierwszej kolejności utwórz konto w tym serwisie. Następnie, tworząc nowy projekt, załaduj już istniejący, \textit{uek-thesis.zip}, zawierający zbiór plików i folderów, których zawartość zmodyfikujesz w trakcie tworzenia pracy dyplomowej. 
+
+\begin{enumerate}
+	
+	\item TWORZENIE STRONY TYTUŁOWEJ PRACY\\
+	W głównym pliku \textit{uek-thesis.tex} wprowadź dane umieszczone na stronie tytułowej twojej pracy dyplomowej, tj. imię i nazwisko, kierunek i specjalność studiów, promotor, rok. Odszukaj w pliku te dane i w miejsce przykładowych wprowadź prawidłowe wartości. Dane znajdują się w nawiasach \{\}. 
+	
+	\item USTALANIE LICZBY ROZDZIAŁÓW (3 lub 4)\\
+	Jeśli twoja praca będzie posiadać tylko trzy rozdziały, wstęp oraz zakończenie, w głównym pliku \textit{uek-thesis.lex} zaznacz, aby nie dołączano rozdziału czwartego. W tym celu odszukaj linię:
+	
+	\textbackslash include\{chapter4\}
+	
+	i umieść na jej początku znak komentarza \%, aby uzyskać efekt:
+	
+	\%\textbackslash include\{chapter4\}
+	
+	Nie usuwaj fizycznie pliku \textit{chapter4.lex}. Gdy zechcesz przywrócić czwarty rozdział, wystarczy, że usuniesz wprowadzony wcześniej znak komentarza \%. Skompiluj teraz twoją pracę i sprawdź, czy rozdział czwarty nie jest już dołączany.
+	
+	\item USUWANIE TEKSTU PRZYKŁADOWEGO DOKUMENTU\\
+	Każdy plik rozdziału (\textit{chapter1.tex}, \textit{chapter2.tex}, \ldots) oraz plik wstępu (\textit{introduction.tex}) i zakończenia (\textit{conclusion.tex}) zawiera kilka komend \LaTeX~opisujących ten dokument. Komendy te umieszczone są w początkowych dwóch-trzech wierszach pliku i rozpoczynają się od znaku \textbackslash. Zawierają one tytuł rozdziału, wstępu i zakończenia (komenda \textbackslash chapter\{\}), etykietę (komenda \textbackslash label) pozwalającą na powoływanie się na ten rozdział w treści pracy oraz informację, czy wstęp/zakończenie należy również dołączyć do spisu treści pracy (komenda \textbackslash addcontentsline). 
+	
+	Usuń teraz zawartość wszystkich rozdziałów, wstępu oraz zakończenia, pozostawiając w plikach tylko te początkowe 2--3 wiersze zawierające opisywane komendy.
+	
+	\item Plik \textit{bibliography.bib} zawiera wykaz wszystkich publikacji przywoływanych w pracy. Usuń z pliku wszystkie pozycje bibliograficzne, pozostawiając w nim jedynie początkowe linie komentarza, rozpoczynające się od znaku \%.
+	
+	\item TWORZENIE TYTUŁÓW ROZDZIAŁÓW\\
+	W każdym rozdziale (pliki \textit{chapter1.tex}, \textit{chapter2.tex}, \ldots) wprowadz w pierwszej linii (w komendzie \textbackslash chapter) prawidłowy tytuł rozdziału. Umieść go pomiędzy nawiasami \{\}.
+	
+	Skompiluj swoją pracę. Zawiera ona teraz tylko stronę tytułową, spis treści z tytułami rozdziałów, a także puste rozdziały, wstęp i zakończenie.
+		
+	\item TWORZENIE STRUKTURY ROZDZIAŁÓW\\
+	Podziel każdy rozdział na punkty i podpunkty. W tym celu, w każdym rozdziale wprowadź następujące komendy:
+	
+	\textbackslash section\{Tytuł punktu\}\\
+	\textbackslash subsection\{Tytuł podpunktu\}\\
+	\textbackslash subsubsection\{Tytuł podpodpunktu\}
+	
+	Przykładowo, jeśli rozdział składa się z trzech punktów i dwóch podpunktów (występujących w drugim punkcie), to wprowadź poniższe komendy, dodając w nawiasach \{\} właściwe tytuły tych punktów i podpunktów. Umieść pomiędzy komendami kilka wierszy odstępu, np.\\
+	
+	\textbackslash section\{Tytuł punktu\}\\\\
+
+	\textbackslash section\{Tytuł punktu\}\\\\
+
+	\textbackslash subsection\{Tytuł podpunktu\}\\\\
+
+	\textbackslash subsection\{Tytuł podpunktu\}\\\\
+
+	\textbackslash section\{Tytuł punktu\}\\\\
+	
+	Skompiluj teraz swoją pracę. Utworzony plik PDF zawiera teraz wszystkie rozdziały podzielone na punkty oraz podpunkty. Utworzony został również spis treści przedstawiający kompletną strukturę (plan) twojej pracy dyplomowej.
+	
+	\item DODAWANIE RYSUNKÓW\\
+	Przygotuj pliki z rysunkami, zdjęciami, wykresami, które zamierzasz wykorzystać w pracy i umieść je w folderze \textit{images}. \LaTeX~akceptuje pliki graficzne w formatach JPG, czy PNG. Zadbaj o to, aby pliki graficzne były bardzo dobrej jakości. Dla uzyskania najwyższej jakości elementów graficznych, użyj plików w formatach PDF, czy EPS, zawierających zapis obrazu w formacie wektorowym. Takie formaty preferowane są w dokumencie pracy.
+	
+	Aby wstawić rysunek do dokumentu, umieść poniższy zestaw komend bezpośrednio poniżej paragrafu, w którym nastąpi przywołanie rysunku (dodaj dodatkowy wiersz odstępu):
+	
+	\textbackslash begin\{figure\}[ht]\\
+		\textbackslash centering\\
+		\textbackslash includegraphics[width=120mm]\{images/laptop.png\}\\
+		\textbackslash caption\{Komputer typu laptop.\}\\
+		\textbackslash caption*\{Źródło: opracowanie własne na podstawie pixabay.com.\}\\
+		\textbackslash label\{\textbf{fig:laptop}\}\\
+	\textbackslash end\{figure\}
+	
+	W komendzie \textbackslash includegraphics wprowadź nazwę pliku rysunku znajdującego się w folderze \textit{images}, który chcesz dodać do dokumentu pracy. W komendzie \textbackslash caption wprowadź tytuł, który umieszczony będzie pod rysunkiem. W komendzie \textbackslash caption* wprowadź informację o źródle pochodzenia rysunku. Natomiast w komendzie \textbackslash label wpisz unikalny identyfikator, który użyjesz w tekście pracy do przywołania rysunku.
+	
+	\item PRZYWOŁANIE RYSUNKÓW W TEKŚCIE PRACY\\
+	W celu przywołania rysunku, umieść w tekście pracy komendę \textbackslash ref w miejscu, w którym chcesz, aby pojawił się numer rysunku. W nawiasach \{\} wprowadz identyfikator rysunku, np.:
+	
+	(\ldots) jak pokazano na rysunku \textbackslash ref\{\textbf{fig:laptop}\} (\ldots) 
+	
+	Skompiluj dokument. Rysunek wraz z podpisem, a także jego przywołaniem, powinien zostać umieszczony w pracy. Tytuł rysunku zostanie również dodany do spisu rysunków znajdującego się na końcu pracy.
+	
+	Zwróć uwagę, iż rysunek może pojawić się w tekście pracy bezpośrednio po paragrafie, w którym nastąpiło jego przywołanie. Może też pojawić się na kolejnych stronach. Faktyczne umiejscowienie rysunku wewnątrz dokumentu zależne jest od szeregu czynników, w szczególności od objętości paragrafów, czy innych rysunków i tabel znajdujących się w pobliżu dodawanego rysunku.
+	
+	\item DODAWANIE TABEL\\
+	Aby wstawić tabelę, umieść poniższy (przykładowy) zestaw komend poniżej paragrafu, w którym nastąpi przywołanie tabeli:
+	
+	\textbackslash begin\{table\}[ht]\\
+		\textbackslash centering\\
+		\textbackslash caption\{Rezerwaty i pomniki przyrody.\}\\
+		\textbackslash begin\{tabularx\}\{1.0\textbackslash textwidth\}\{l c\}\\
+			\textbackslash hline\\
+			\textbackslash textbf\{Nazwa rezerwatu\} \& \textbackslash textbf\{Powierzchnia\}\textbackslash\textbackslash\\
+			\textbackslash hline\\
+			Bielańskie Skałki	 	 \& 1,73 ha\textbackslash\textbackslash\\
+			Panieńskie Skały		 \& 6,41 ha\textbackslash\textbackslash\\
+			\textbackslash hline\\		
+		\textbackslash end\{tabularx\}\\
+		\textbackslash caption*\{Źródło: opracowanie własne na podstawie Wikipedia.\}\\
+		\textbackslash label\{\textbf{tab:rezerwaty}\}\\
+	\textbackslash end\{table\}
+	
+	W komendzie \textbackslash caption wprowadź tytuł, który umieszczony będzie nad tabelą. W komendzie \textbackslash caption* wprowadź informację o źródle pochodzenia tabeli. Natomiast w komendzie \textbackslash label wpisz unikalny identyfikator, który zastosujesz w tekście pracy do przywołania tabeli. Następnie zmodyfikuj tabelę do własnych potrzeb. Zwróć uwagę, iż dane w kolumnach tabeli oddzielane są znakiem \&, natomiast na końcu każdego wiersza tabeli umieść znaki przejścia do nowego wiersza \textbackslash\textbackslash. Szczegóły dotyczące tworzenia tabel znajdziesz w Internecie, np. \url{https://en.wikibooks.org/wiki/LaTeX/Tables}.
+	
+	\item PRZYWOŁANIE TABEL W TEKŚCIE PRACY\\
+	W celu przywołania tabeli w tekście pracy, umieść komendę \textbackslash ref w miejscu, w którym chcesz, aby pojawił się numer tabeli. W nawiasach \{\} wprowadź identyfikator tabeli, np.:
+	
+	(\ldots) jak pokazano w tabeli \textbackslash ref\{\textbf{tab:rezerwaty}\} (\ldots) 
+	
+	Po dodaniu tabeli skompiluj dokument. Tabela wraz z podpisem powinna zostać umieszczona w pracy. Tytuł tabeli zostanie również dodany do spisu tabel. Spis ten znajduje się na końcu pracy. Jednocześnie w tekście pracy wystąpi przywołanie tabeli (jej numer).
+	
+	Zwróć uwagę, iż tabela może pojawić się w tekście pracy bezpośrednio po paragrafie, w którym nastąpiło jego przywołanie. Może też pojawić się na kolejnych stronach. Faktyczne umiejscowienie rysunku wewnątrz dokumentu zależne jest od szeregu czynników, w szczególności od objętości paragrafów, czy innych rysunków i tabel znajdujących się w pobliżu dodawanego rysunku.
+	
+	
+	\item DODAWANIE FORMUŁ MATEMATYCZNYCH\\
+	Formuły matematyczne występujące wewnątrz tekstu należy umieścić pomiędzy znakami \$ oraz \$, np.
+	
+	\$S=\textbackslash frac\{a+b\}\{2\}h\$
+	
+	Co w efekcie spowoduje uzyskanie następującego efektu:
+	
+	(\ldots) pole powierzchni trapezu wyraża się jako iloczyn połowy sumy długości podstaw oraz jego wysokości, czyli dane jest wzorem $S=\frac{a+b}{2}h$, gdzie $a,b$ to długości podstaw, a $h$ to jego wysokość (\ldots)
+	
+	Natomiast, jeśli formuła będzie przywoływana w pracy, należy umieścić ją w odrębnym paragrafie, korzystając z komendy equation:
+	
+	\textbackslash begin\{equation\}\\
+	S=\textbackslash frac\{a+b\}\{2\}h\\
+	\textbackslash label\{\textbf{eq:trapez}\}\\
+	\textbackslash end\{equation\}
+	
+	co w efekcie pozwoli na uzyskanie następującego rezultatu:
+	
+	\begin{equation}
+	S=\frac{a+b}{2}h
+	\label{eq:trapez}
+	\end{equation}
+	
+	Formula matematyczna jest wtedy automatycznie numerowana. Unikalny identyfikator w komendzie \textbackslash label\{\} pozwala na przywołanie wzoru w tekście pracy, stosując komendę \textbackslash ref\{\}, np.
+	
+	(\ldots) pole trapezu (\textbackslash ref\{\textbf{eq:trapez}\}) wyznaczane jest (\ldots)
+		
+	Należy dodać, iż w Internecie dostępnych jest wiele narzędzi wspierających tworzenie wzorów w języku \LaTeX, np:
+	
+	\url{https://www.codecogs.com/latex/eqneditor.php}
+			
+	\item DODAWANIE PRZYPISÓW\\
+	Każdy przypis składa się ze znacznika występującego w tekście pracy oraz tekstu przypisu, zlokalizowanego na dole strony. Dodanie przypisu jest operacją prostą. W tekście pracy, bezpośrednio po słowie, po którym powinien pojawić się odnośnik, należy użyć komendy \textbackslash footnotemark, natomiast poniżej paragrafu, gdzie wystąpiło odwołanie do przypisu dolnego należy umieścić tekst przypisu stosując komendę \textbackslash footnotetext, wprowadzając w nawiasach \{\} tekst przypisu:
+	
+	\textbackslash footnotetext\{Tu należy wprowadzić tekst przypisu\}
+	
+	\item TWORZENIE BIBLIOGRAFII\\
+	Tworząc bibliografię należy w pierwszej kolejności umieścić opis opis publikacji w formacie BibTeX w pliku \textit{bibliography.bib}. Przykładowa struktura opisu publikacji została przedstawiona poniżej:
+	
+	@book\{\textbf{campbell2018computer},\\
+		title=\{Computer, Student Economy Edition\},\\
+		author=\{Campbell-Kelly, Martin\},\\
+		year=\{2018\},\\
+		publisher=\{Routledge\}\\
+	\}
+	
+	Należy dodać, iż wiele baz danych publikacji udostępnia ich opis bibliograficzny w formacie BibTeX. Jedną z takich baz jest Google Scholar.
+	
+	\item PRZYWOŁANIE PUBLIKACJI (CYTOWANIE)\\
+	W celu przywołania publikacji w tekście pracy należy posłużyć się właściwą komendą, podając jednocześnie identyfikator publikacji, np:
+	
+	\textbackslash citep\{\textbf{campbell2018computer}\}
+	
+	Wykaz komend dostępny jest w \cite{website:wikibooks} -- punkt ,,Komendy NatBib''.
+	
+\end{enumerate}
+
+Powyższy, krótki poradnik, z pewnością nie wyczerpuje w pełni możliwości użycia narzędzia \LaTeX. Wiele szczegółowych informacji można znalezć korzystając ze zródeł podanych na początku tego rozdziału.
+
+
+
+\begin{flushright}
+~\\
+Opracowanie instruktażu użycia szablonu\\
+~\\
+\textit{Janusz Stal\\
+Katedra Informatyki\\
+Uniwersytetu Ekonomicznego w Krakowie\\
+}\end{flushright}
+
+

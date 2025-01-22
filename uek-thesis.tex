@@ -1,0 +1,78 @@
+\documentclass{lib/uekthesis}
+\usepackage{lib/uekthesis}
+
+
+
+%####################################################################
+% INFORMACJE O PRACY DYPLOMOWEJ
+%####################################################################
+
+% wyrazy nie będą dzielone
+\hyphenpenalty 10000
+\exhyphenpenalty 10000
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% tytuł pracy dyplomowej
+\globalFullTitle{Przygotowanie pracy dyplomowej -- przewodnik dyplomanta}
+
+% typ pracy, promotor
+\globalThesisType{Praca licencjacka / inżynierska / magisterska}
+\globalUnderTheSupervisonOf{Promotor}
+\globalSupervisor{prof. dr hab. Piotr Nowak}
+
+% autor pracy i numer indeksu
+\globalFullAuthor{Jan Kowalski}
+\globalAuthorID{Nr albumu: 316729}
+
+% kierunek i specjalność studiów
+\globalDegreeprogramme{Kierunek: Informatyka Stosowana\\Specjalność: Inżynieria Oprogramowania}
+
+% nazwa uniwersytetu
+\globalFullUniversity{Uniwersytet Ekonomiczny w Krakowie}
+
+% wydział, kolegium, instytut
+\globalDepartment{Kolegium Nauk o Zarządzaniu i Jakości\\Instytut Informatyki, Rachunkowości i Controllingu}
+
+% miejscowość i rok
+\globalCity{Kraków}
+\globalYear{2023}
+
+
+
+%####################################################################
+% STRUKTURA PRACY DYPLOMOWEJ
+%####################################################################
+
+\begin{document}
+
+% strona tytułowa
+\titlepages
+
+% spis treści
+\tableofcontents
+
+% rozdziały pracy 
+\include{introduction}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{conclusion}
+
+% bibliografia
+\newpage
+\bibliographystyle{papalike}
+\bibliography{bibliography} 
+ 
+% spis tabel
+\newpage
+\listoftables
+
+% spis rysunków
+\newpage
+\listoffigures
+
+% dodatek, załącznik
+\include{appendix}
+
+\end{document}
