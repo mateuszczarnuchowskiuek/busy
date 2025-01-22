@@ -1,4 +1,5 @@
 Mateusz:
+- Ogarnięcie struktury dokumentu
 
 Filip:
 
