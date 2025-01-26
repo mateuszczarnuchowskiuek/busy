@@ -6,7 +6,172 @@ Mateusz:
 - 2.1 Propozycja wartości [todo]
 
 Filip:
+- 2. Model biznesowy
+- 2.1. Propozycja wartości
+- 2.2. Model Przychodów
+ 
 
 Bruno:
 
 Daniel:
+
+
+
+WYMAGANIA PROJEKTOWE Z PDF Z KURSU NA E-UCZELNI:
+------------------
+Kierunek: Informatyka stosowana
+Przedmiot: E-biznes
+Temat: Projekt przedsięwzięcia e-biznesowego
+Forma: Projekt zespołowy
+Termin: 26.01.2025 r.
+
+1. Celem projektu jest zaprojektowanie przedsięwzięcia e-biznesowego.
+WYMOGI FORMALNE
+
+2. Projekt realizowany jest w 3-6 osobowych zespołach. Skład zespołu powinien być podany
+prowadzącemu przed przystąpieniem do realizacji projektu a ewentualna jego zmiana w trakcie
+realizacji projektu musi być każdorazowo konsultowana z prowadzącym zajęcia. W momencie
+podawania składu zespołu należy wyznaczyć kierownika, który odpowiada m.in. za kontaktowanie się
+zespołu z prowadzącym zajęcia.
+
+3. Projekt powinien zostać dostarczony w formie dokumentu tekstowego w formacie MS Word. Jego
+objętość powinna wynosić około 27000 znaków łącznie ze spacjami (15 stron) ± 10%. Dokument
+powinien być starannie sformatowany i zawierać powołania i/lub cytowania bibliograficzne w
+standardzie APA1
+. Należy również zwrócić uwagę na właściwe zrównoważenie treściowe dokumentu.
+
+4. Dodatkowo należy dokument końcowy uzupełnić o 10 minutową prezentację zawierającą kluczowe
+punkty modelu e-biznesowego, którą zespół będzie mógł wygłosić podczas ostatnich zajęć (na
+studiach dziennych) i/lub przesłać na platformę Moodle w wyznaczonym miejscu na stronie kursu
+(studia dzienne i zaoczne).
+WYMOGI MERYTORYCZNE
+
+5. Zakres projektu obejmuje następujące elementy:
+a. Propozycja wartości (Value proposition)
+    i. Określa, w jaki sposób produkt lub usługa firmy spełnia potrzeby klientów
+    ii. Kluczowe pytanie: Dlaczego klient powinien kupować w tej właśnie firmie?
+    iii. Inne pytania: Dlaczego klienci zdecydują się robić interesy z tą firmą zamiast z inną i
+    co oferuje dana firma, czego inne firmy nie mogą lub nie mogą?
+    iv. Elementy propozycji wartości
+        1. personalizacja i dostosowywanie oferty produktowej
+        2. redukcja kosztów wyszukiwania produktów
+        3. redukcja kosztów określenia ceny
+        4. ułatwienie transakcji poprzez zarządzanie dostawami produktów
+b. Model przychodów (Revenue model)
+    i. Opisuje, w jaki sposób firma będzie zarabiać, generować zyski i zapewniać wyższy
+    zwrot z zainwestowanego kapitału
+    ii. Kluczowe pytanie: W jaki sposób firma będzie zarabiać pieniądze?
+    iii. Przykłady modeli przychodów:
+        1. reklamowy (Google, Yahoo)
+        2. subskrypcyjny (Netflix, Spotify)
+        3. freemium (Google Play, App Store)
+        4. opłata transakcyjna (eBay)
+        5. sprzedażowy (Amazon)
+        6. partnerski (MyPoints, Payback)
+        7. producent bezpośredni (Dell)
+        1
+        https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/general_format.html
+c. Okazja rynkowa (Market opportunity)
+    i. Odnosi się do planowanej przestrzeni rynkowej firmy i ogólnych potencjalnych
+    możliwości finansowych dostępnych dla firmy w tej przestrzeni rynkowej
+    ii. Kluczowe pytanie: Jaki obszar rynku firma zamierza obsługiwać i jaki jest jego
+    rozmiar?
+    iii. Okazja rynkowa jest zwykle podzielona na mniejsze nisze rynkowe
+d. Otoczenie konkurencyjne (Competitive environment)
+    i. Odnosi się do innych firm sprzedających podobne produkty i działających na tym
+    samym rynku
+    ii. Odnosi się również do obecności substytutów produktów i potencjalnych nowych
+    podmiotów wchodzących na rynek, a także siły klientów i dostawców
+    iii. Organizacje zazwyczaj mają pośrednich i bezpośrednich konkurentów
+    iv. Kluczowe pytanie: Kto jeszcze zajmuje planowaną przestrzeń rynkową?
+    v. Ilu konkurentów jest aktywnych, jak duże są ich operacje, jaki jest ich udział w
+    rynku, jak dochodowe są te firmy itp.
+e. Przewaga konkurencyjna (Competitive advantage)
+    i. Osiągana przez firmę, gdy może ona wyprodukować lepszy produkt i/lub
+    wprowadzić go na rynek po niższej cenie niż większość lub wszyscy jej konkurenci
+    ii. Kluczowe pytanie: Jakie szczególne zalety wnosi dana firma na rynek?
+    iii. Firmy osiągają przewagę konkurencyjną, ponieważ są w stanie uzyskać
+    zróżnicowany dostęp do czynników produkcji, które są niedostępne dla ich
+    konkurentów i/lub zapewnić lepszą kompilację zasobów i kompetencji
+    iv. Asymetria występuje, gdy jeden uczestnik rynku ma więcej zasobów niż inni. Na
+    rynkach doskonałych nie ma asymetrii
+    v. Przewaga pierwszego gracza (first-mover advantage) (Amazon); Przewaga
+    naśladowców strategicznych (strategic follower advantage) (Google); „Nieuczciwa”
+    (”unfair”) przewaga konkurencyjna (nazwy marek)
+f. Strategia rynkowa (Market strategy)
+    i. Przygotowany plan dokładnie określający, w jaki sposób firma zamierza wejść na
+    nowy rynek i przyciągnąć nowych klientów
+    ii. Kluczowe pytanie: Jak firma planuje promować swoje produkty lub usługi, aby
+    przyciągnąć grupę docelową?
+    iii. Wszelkie działania promujące produkty firmy wśród potencjalnych klientów
+    iv. W przypadku strategii marketingowych w mediach społecznościowych klient staje
+    się częścią zespołu marketingowego
+g. Projekt organizacji (Organizational development)
+    i. Plan opisujący w jaki sposób zostaną zorganizowane prace związane z rozpoczęciem
+    działalności
+    ii. Kluczowe pytanie: Jakie rodzaje struktur organizacyjnych w firmie są niezbędne do
+    realizacji biznesplanu?
+    iii. Wiele inicjatyw e-biznesowych nie powiodło się z powodu braku zdolności
+    organizacyjnych
+    iv. Zazwyczaj działalność jest podzielona na działy funkcjonalne, takie jak produkcja,
+    wysyłka, marketing, obsługa klienta i finanse.
+    v. Na początku zatrudniana jest jedna osoba, która może wykonywać wiele zadań, ale
+    wraz z rozwojem firmy potrzebne są działy funkcjonalne i więcej pracowników
+h. Zespół zarządzający (Management team)
+    i. Pracownicy firmy odpowiedzialni za wdrożenie modelu biznesowego
+    ii. Najważniejsza część modelu biznesowego
+    iii. Zespół powinien być w stanie zmienić model e-biznesowy i przedefiniować biznes,
+    gdy zajdzie taka potrzeba.
+    iv. Kluczowe pytanie: Jakie rodzaje umiejętności i doświadczenia zawodowego są
+    ważne dla liderów firmy?
+    v. Do wykonania/przedefiniowania biznesplanu niezbędny jest silny i doświadczony
+    zespół zarządzający
+i. Opis krytycznych czynników sukcesu warunkujących wdrożenie projektu i późniejsze
+działanie biznesu;
+j. Plan działania będący ostatecznym krokiem, w ramach którego należy przygotować mapę
+serwisu/aplikacji mobilnej, zrzuty ekranu i/lub dokumentację techniczną itp.
+
+6. Poszczególne punkty powinny być opisane z wykorzystaniem pojęć, narządzi i zagadnień
+teoretycznych omawianych na wykładzie czy też rozszerzonych dzięki studiom indywidualnym
+prowadzonym w oparciu o rekomendowaną literaturę przedmiotu. W celu pozyskania fachowej
+literatury można wykorzystać portal dostępowy: https://bg.uek.krakow.pl/zasoby-online. W
+szczególności wartymi polecenia są bazy: EBSCOhost, Emerald, IBUK Libra, JSTOR, Science Direct,
+SpringerLink i Wiley Online Library. Można również skorzystać z portalu https://scholar.google.com.
+W raporcie należy powołać co najmniej 5 recenzowanych publikacji naukowych (nie wliczając
+nierecenzowanych źródeł internetowych).
+
+7. Struktura raportu
+1. Wprowadzenie
+2. Model biznesowy
+2.1. Propozycja wartości
+2.2. Model Przychodów
+2.3. Rynek
+2.4. Otoczenie konkurencyjne
+2.5. Przewaga konkurencyjna
+2.6. Strategia rynkowa
+2.7. Projekt organizacji
+2.8. Zespół menedżerski
+3. Krytyczne czynniki sukcesu
+4. Plan działania
+
+8. Punktacja (max 19 pkt.)
+a. Zawarta we Wprowadzeniu analiza literaturowa, wyrażająca się m.in. wskazaniem na
+potrzebę realizacji opisywanego rozwiązania oraz właściwym odniesieniem się do warstwy
+teoretycznej: 4 pkt. (~2,5 strony);
+b. Zawartość poszczególnych elementów modelu e-biznesowego: 9 pkt. (~9 stron)
+c. Analiza krytycznych czynników sukcesu: 1 pkt (~1 strona)
+d. Opis planu działania: 2 pkt. (~2,5 strony)
+e. Prezentacja projektu: 3 pkt. (~10 slajdów)
+f. Opóźnienie w oddaniu raportu: –0,5 pkt. za każdy dzień zwłoki
+g. Niedotrzymanie wymagań odnośnie do objętości: –0,5 pkt. za +10%, –1 pkt. za –10%
+h. Błędy i literówki: –1 pkt. za każdy znaleziony błąd ortograficzny; –0,1 pkt. za każdą znalezioną
+literówkę
+
+9. Pierwsza strona raportu powinna zawierać następujące informacje:
+Projekt stanowi oryginalną prace zespołu w składzie:
+Imię1 Nazwisko1 – kierownik projektu
+…
+Imię6 Nazwisko6
+Nie ma obowiązującego szablonu raportu, jednak powinien on być starannie zredagowany. Można do
+tego celu wykorzystać dowolne szablony dokumentów, które Zespół uzna za stosowne. Zalecane jest
+stosowanie zdefiniowanych stylów i mechanizmu automatycznego zarządzania bibliografią.
