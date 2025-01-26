@@ -1,5 +1,7 @@
 Mateusz:
-- Ogarnięcie struktury dokumentu
+- Ogarnięcie struktury dokumentu [done]
+- Wklejenie starego wprowadzenia [todo]
+- Poprawienie starego wprowadzenia o rzeczy, które mówił gdy mu to pokazywaliśmy [todo]
 
 Filip:
 
