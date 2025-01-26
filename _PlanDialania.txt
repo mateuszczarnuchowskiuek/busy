@@ -6,8 +6,6 @@ Mateusz:
 - 2.1 Propozycja wartości [todo]
 
 Filip:
-- 2. Model biznesowy
-- 2.1. Propozycja wartości
 - 2.2. Model Przychodów
  
 
