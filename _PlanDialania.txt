@@ -1,6 +1,6 @@
 Mateusz:
 - Ogarnięcie struktury dokumentu [done]
-- Wklejenie starego wprowadzenia [todo]
+- Wklejenie starego wprowadzenia [done]
 - Poprawienie starego wprowadzenia o rzeczy, które mówił gdy mu to pokazywaliśmy [todo]
 - Dorobienie reszty wprowadzenia (żeby cytaty były) [todo]
 - 2.1 Propozycja wartości [todo]
