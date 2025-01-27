@@ -1,6 +1,6 @@
 Mateusz:
 - Ogarnięcie struktury dokumentu [done]
-- Wklejenie starego wprowadzenia [done]
+- Wklejenie starego wprowadzenia [todo]
 - Poprawienie starego wprowadzenia o rzeczy, które mówił gdy mu to pokazywaliśmy [todo]
 - Dorobienie reszty wprowadzenia (żeby cytaty były) [todo]
 - 2.1 Propozycja wartości [todo]
@@ -9,10 +9,16 @@ Filip:
 - 2.2. Model Przychodów
  
 
-Bruno:
+Bruno: 
+- 3. Krytyczne czynniki sukcesu [40% done?]
 
 Daniel:
 -2.3 rynek 
+-2.4
+-2.5
+-2.6
+-2.7
+-2.8
 
 
 
