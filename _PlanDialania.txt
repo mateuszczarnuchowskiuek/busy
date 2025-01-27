@@ -9,8 +9,11 @@ Filip:
 - 2.2. Model Przychodów
  
 
-Bruno: 
-- 3. Krytyczne czynniki sukcesu [40% done?]
+Bruno:
+-  3. Krytyczne czynniki sukcesu
+    - 3.1. Kluczowe atrybuty pełnionych usług
+    - 3.2. Marketing
+    - 3.3. Wsparcie klienta
 
 Daniel:
 -2.3 rynek 
