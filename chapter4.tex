@@ -66,26 +66,15 @@ Każda z tych wersji będzie miała unikalne funkcjonalności dostosowane do spe
 
 \section{Mapa aplikacji}
 Poniżej przedstawiono strukturę aplikacji w postaci drzewa:
+\begin{figure}
+	\centering
+	\includegraphics[width=150mm]{images/tree.jpg}
+	\caption{Mapa aplikacji}
+	\caption*{Źródło: opracowanie własne.}
+    \label{fig:tree}
+\end{figure}
 
-\begin{center}
-    \begin{tikzpicture}[level distance=2cm, sibling distance=3cm, edge from parent/.style={draw,-latex}]
-        \node {Aplikacja}
-            child { node {Aplikacja internetowa}
-                child { node {Panel administratora} }
-                child { node {Panel klienta} }
-            }
-            child { node {Aplikacja dla kierowców}
-                child { node {Logowanie} }
-                child { node {Lista zleceń} }
-                child { node {Podsumowanie trasy} }
-            }
-            child { node {Aplikacja dla klientów}
-                child { node {Logowanie/Rejestracja} }
-                child { node {Zamówienia} }
-                child { node {Historia zamówień} }
-            };
-    \end{tikzpicture}
-\end{center}
+\newpage
 
 \section{Technologie}
 \begin{itemize}
@@ -94,3 +83,28 @@ Poniżej przedstawiono strukturę aplikacji w postaci drzewa:
     \item \textbf{Bazy danych:} Firebase Firestore, PostgreSQL.
     \item \textbf{Inne:} Docker, CI/CD (GitHub Actions, Jenkins).
 \end{itemize}
+%(zobacz rys. \ref{fig:logo})
+
+\newpage
+
+\begin{figure}
+	\centering
+	\includegraphics[width=150mm]{images/website.jpg}
+	\caption{Mockup strony internetowej}
+	\caption*{Źródło: opracowanie własne.}
+    \label{fig:website}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=50mm]{images/phone.jpg}
+	\caption{Mockup aplikacji mobilnej dla podróżnych}
+	\caption*{Źródło: opracowanie własne.}
+    \label{fig:phone}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=50mm]{images/dashboard.jpg}
+	\caption{Mockup dashboard'a dla kierowców}
+	\caption*{Źródło: opracowanie własne.}
+    \label{fig:dashboard}
+\end{figure}
